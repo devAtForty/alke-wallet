@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alke Wallet | Transferir</title>
+</head>
+<body>
+    <header>
+        <h2>Enviar Dinero</h2>
+        <a href="menu.html">Volver al Menú</a>
+    </header>
+
+    <main>
+        <form>
+            <label for="contact">Seleccionar Contacto:</label>
+            <select id="contact" name="contact" required>
+                <option value="" disabled selected>Elige un contacto</option>
+                <option value="maria">María Pérez</option>
+                <option value="juan">Juan Soto</option>
+                <option value="pedro">Pedro Lira</option>
+            </select>
+            <br><br>
+
+            <label for="amount">Monto a transferir:</label>
+            <input type="number" id="amount" name="amount" placeholder="Ej: 5000" min="1" required>
+            <br><br>
+
+            <button type="button" onclick="alert('Funcionalidad pendiente de JS')">Transferir</button>
+        </form>
+    </main>
+</body>
+</html>
